@@ -1,16 +1,29 @@
 .App {
   text-align: center;
+  background-color: #ffffff; 
+  padding: 20px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ffffff; 
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%; 
+  margin-right: 20px;
+  border: 2px solid #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.user-details {
+  text-align: left;
 }
 
 .App-header {
